@@ -1,0 +1,6 @@
+{
+  "name": "node-app",
+  "description": "Node.js app",
+  "repository": "https://github.com/jhonatantft/node-app",
+  "keywords": ["node", "express"]
+}
