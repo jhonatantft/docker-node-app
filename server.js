@@ -1,16 +1,13 @@
-'use strict';
+var express = require('express');
+var app = express();
 
-const express = require('express');
+app.set('port', (process.env.PORT || 5000));
+app.use(express.static(__dirname + '/public'));
 
-// Constants
-const PORT = process.env.PORT || 3000;
-const HOST = '127.0.0.1';
-
-// App
-const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello world\n');
+app.get('/', function(request, response) {
+  response.send('Hello World!')
 });
 
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+app.listen(app.get('port'), function() {
+  console.log("Node app is running at localhost:" + app.get('port'))
+});
