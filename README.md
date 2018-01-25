@@ -1,1 +1,1 @@
-<h2 align="center">docker-node-app</h2>
+<h2 align="center">node-app</h2>
