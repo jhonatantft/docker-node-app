@@ -1,9 +1,3 @@
-FROM node:carbon
+FROM heroku/nodejs
 
-# Create app directory
-WORKDIR /app
-
-# Bundle apps source
-COPY . .
-
-CMD NODE_URLS=http://*:$PORT npm start
+CMD bin/web

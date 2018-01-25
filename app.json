@@ -1,0 +1,5 @@
+{
+  "name": "docker-node-app",
+  "description": "Node.js app on Docker",
+  "image": "heroku/nodejs"
+}
