@@ -10,17 +10,17 @@
 
 ### Installation
 
-git clone https://github.com/jhonatantft/node-app.git
-cd node-app
-npm install
+- git clone https://github.com/jhonatantft/node-app.git 
+- cd node-app
+- npm install
 #### or
-yarn
+- yarn
 
 ### Scripts
 
-npm run dev
-npm start
-Visit http://localhost:8000
+- npm run dev
+- npm start
+- Visit http://localhost:8000
 
 ## License
 MIT License.
